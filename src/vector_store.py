@@ -30,7 +30,7 @@ client = chromadb.PersistentClient(path="chroma_db")
 collection = client.get_or_create_collection(name="co2_activities")
 
 # Add to collection
-collection.add(
+collection.upsert(
     documents=documents,
     embeddings=embeddings.tolist(),
     metadatas=metadatas,

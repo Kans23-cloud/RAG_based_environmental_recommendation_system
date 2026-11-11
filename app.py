@@ -12,6 +12,6 @@ if st.button("Get Recommendations"):
         with st.spinner("Generating recommendations..."):
             response = get_recommendations(query)
         st.success("Recommendations:")
-        st.write(response)
+        st.markdown(response)
     else:
         st.error("Please enter a query.")

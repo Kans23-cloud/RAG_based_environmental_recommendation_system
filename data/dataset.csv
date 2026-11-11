@@ -1,5 +1,5 @@
 Activity,Avg_CO2_Emission(kg/day),Category
-Car (Petrol, 20 km),4.6,Transport
+Car (20 km),4.6,Transport
 Bus (20 km),1.2,Transport
 Bicycle (20 km),0.0,Transport
 AC usage (8 hrs/day),6.0,Household
